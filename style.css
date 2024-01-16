@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@800&family=Poppins:wght@500;800&display=swap');
+
+body {
+
+    font-family: 'Figtree', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+    background-color:  hsl(47, 88%, 63%);
+
+}
+
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 380px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0 black;
+    
+    
+}
+
+
+.card__img{
+    margin: 5%;
+    border-radius: 15px;
+        
+}
+
+.card__body{
+    padding: 5%;
+
+}
+
+.card__btn{
+ background-color:  hsl(47, 88%, 63%);
+ padding: 8px 12px;
+ border-radius: 8px;
+ text-decoration: none;
+ color:  hsl(0, 0%, 7%);
+ font-weight: 800;
+ font-size: 16px;
+ 
+}
+
+.card__sub{
+    margin-top: 25px;
+    margin-bottom: px;
+    color:  hsl(0, 0%, 7%);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card__title{
+    margin-top: 15px;
+    margin-bottom: 18px;
+    color:  hsl(0, 0%, 7%);
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.card__text{
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 50%);
+}
+
+.card__author{
+    display: flex;
+    align-items: center;
+}
+
+.card__author-img{
+    padding-right: 15px;
+    width: 65px;
+}
+
+.card__author h5 {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .card{
+        width: 340px;
+
+    }
+
+    .card__img{
+        width: 310px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
